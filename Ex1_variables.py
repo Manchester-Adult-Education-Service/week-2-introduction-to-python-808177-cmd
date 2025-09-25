@@ -5,21 +5,36 @@
 # Your task: Use variables to make the code shorter and easier to change!
 
 # Step 1: Run this program as it is first:
-print("Hello, Alice!")
-print("Alice is 25 years old.")
-print("In 5 years, Alice will be 30 years old.")
-print("Alice really likes pizza.")
-print("Pizza is Alice's favourite food!")
+name ="Ikram"
+age = 25
+food = "pizza"
+print(f"Hello, {name}!")
+print(f"{name} is {age} years old.")
+print(f"In 5 years, {name} will be 30 years old.")
+print(f"{name} really likes {food}.")
+print(f"{food} is {name}'s favourite food!")
 
 # This will just add an empty line for space
 # Please don't touch this
 print("")
+bobname = "Nardos"
+bobage = 30
+bobfood = "noodles"
+print(f"Hello, {bobname}!")
+print(f"{bobname} is {bobage} years old.")
+print(f"In 5 years, Bob will be 35 years old.")
+print(f"{bobname} really likes {bobfood}.")
+print(f"{bobfood} is {bobname}'s favourite food!")
 
-print("Hello, Bob!")
-print("Bob is 30 years old.")
-print("In 5 years, Bob will be 35 years old.")
-print("Bob really likes noodles.")
-print("Noodles is Bob's favourite food!")
+thirdname ="Maki"
+thirdage = "31"
+thirdfood ="burger"
+print(f"Hello, {name}!")
+print(f"{name}is {age} years old.")
+print(f"In 5 years, {name} will be {age + 5} years old.")
+print(f"{name} really like {food}.")
+print(f"{food.capitalize()} is {name}'s favouyite food!")
+
 
 # Notice there's lots of repetition!
 # If we want to change Alice's age or favourite food, we'd have to change it in many places.
@@ -36,7 +51,6 @@ print("Noodles is Bob's favourite food!")
 # print(f"In 5 years, {name} will be {age + 5} years old.")
 # print(f"{name} really likes {food}.")
 # print(f"{food.capitalize()} is {name}'s favourite food!")
-
 # Step 3: Do the same for Bob, or make your own second person!
 # Use different values for name, age, and food.
 
@@ -53,8 +67,7 @@ print("Noodles is Bob's favourite food!")
 # age = int(input("How old are you? "))
 # food = input("What is your favourite food? ")
 # print(f"Hello, {name}! Next year you will be {age + 1}.")
-# print(f"{food.capitalize()} is your favourite food!")
-
+# print(f"{food.capitalize()} is your favourite food!"
 # Once you are done, please run the following commands (one by one) in the terminal:
 # git add Ex1_variables.py
 # git commit -m "Completed variables exericse"
